@@ -3,11 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>API ViaCep</title>
 </head>
 <body>
-    
+    <h1>APICEP</h1>
+    <p> fazer: <li>filtrar apenas entradas certas</li>
+                <li>não repetir cep</li>
+                <li>fazer pra achar o cep com a rua</li></p>
+<form id="CEP2END">
+    <input id="InputCEP" type="text" placeholder="Insira seu CEP">
+    <button type="button" onclick="jsApiCEP()">Enviar</button>
 
+    <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+</form>
+<div id="returnEND">
+    
+     
+    </div>
+
+</div>
     <script src="api.js"></script>
+
 </body>
 </html>
